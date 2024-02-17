@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto"       fetch="https://git.yoctoproject.org"/>
+  <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="meta-wortel"          fetch="https://github.com/rahmanuh"/>
+
+  <project name="poky" path="sources/poky" remote="yocto" revision="0b39955d14600257a6eafc211fd68a933c69a0e9" upstream="kirkstone"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="8609de00952d65bb813a48c535c937324efeb18a" upstream="kirkstone"/>
+  <project name="meta-wortel" path="sources/meta-wortel" remote="meta-wortel" revision="9c0be6bf74e00e19319a48948cacfd8a9be9342e" upstream="kirkstone"/>
+
+</manifest>
